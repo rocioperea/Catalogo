@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alma</title>
+	<link type="image/x-icon" href="C:\Users\rocio\OneDrive\Escritorio\trabajo_practico2\Imagenes/img22.png" rel="icon" />
+</head>
+<style type="text/css"> 
+
+	h1{ 
+		background-color: rgb(74, 155, 300);
+		
+	}
+	nav{
+		background-color: rgb(74, 155, 255) ;
+		width: 100% ;
+		}
+
+	nav ol {
+  		list-style: none;
+  		 overflow: hidden;
+
+		}
+
+	nav ol li {
+  		float: left;
+  		font-family: cursive;
+  		font-size: 16px;
+		}
+	nav ol li a {
+  		display: block;
+ 		padding: 10px;
+  		color: black;
+  		text-decoration: none;
+		}
+	nav ol li:hover {
+		background: white;
+		}
+		body {
+			background: #8A2387;  
+background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387); 
+background: linear-gradient(to left, #F27121, #E94057, #8A2387); 
+
+		}
+</style>
+<body>
+	<center>
+	<h1>Catálogos de productos</h1>
+	
+	<b>
+		<nav > 
+			<ol>
+			<li><a href= "SuplementosDeportivos.html">Suplementos deportivos</a></li>
+			<li><a href= "ProductosTecnologicos.html">Productos teconologicos</a></li>
+			<li><a href= "Cosmeticos.html">Cosmeticos</a></li>
+			<li><a href= "ArticulosDeLimpieza.html">Articulos de limpieza</a></li>
+			<li><a href= "Golosinas.html">Golosinas</a></li>
+			<ol>
+		</nav>
+
+		</center>
+</body>
+</html>
